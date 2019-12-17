@@ -1,0 +1,32 @@
+<!-- <input type="text" [(ngModel)]="name">
+<p>{{name}}</p> -->
+<!-- <h1>Dummy data</h1> -->
+<!-- <div class="row">
+<ul>
+    <li *ngFor="let phone of smartphone; let i = index">
+      {{i+1}} {{phone.title}}
+    </li>
+  </ul>
+</div> -->
+
+<div class="container">
+    <h2>Get Sample API</h2>
+    <p>URL : https://jsonplaceholder.typicode.com/posts</p>            
+    <table class="table">
+      <thead>
+        <tr>
+          <th>S.No.</th>
+          <th>Title</th>
+          <th>Body</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let phone of smartphone; let i = index">
+          <td>{{i+1}}</td>
+          <td>{{phone.title}}</td>
+          <td>{{phone.body}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
